@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon'],
   experimental: {
       scanPageMeta: 'after-resolve',
       sharedPrerenderData: false,
