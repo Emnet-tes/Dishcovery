@@ -15,6 +15,7 @@ services:
     environment:
       ## postgres database to store Hasura metadata
       HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:X9r7LmP!vZq4bT2@postgres:5432/dishcovery
+      HASURA_GRAPHQL_ADMIN_SECRET: youradminsecret
       ## this env var can be used to add the above postgres database to Hasura as a data source. this can be removed/updated based on your needs
       PG_DATABASE_URL: postgres://postgres:X9r7LmP!vZq4bT2@postgres:5432/dishcovery
       ## enable the console served by server
